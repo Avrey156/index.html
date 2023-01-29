@@ -1,36 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
-    .red {
-      background-color: rgb(230, 30, 42);
-    }
-
-    .yellow {
-      background-color: rgb(250, 200, 0);
-    }
-    
-    .blue {
-      background-color: rgb(0, 0, 84;
-    }
-
-    white {
-      color: rgb(255, 255, 255); 
-    }
-
-    red {
-      color: rgb(230, 30, 42);
-    }
-  </style>
 <head>
   <title>RMIT University</title>
+  <!-- Extract styles from css file -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- Navigation bar by list 
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  -->
+  <div class="navbar">
+    <nav>
+      <a href="/how_it_works/">How it works</a> |
+      <a href="/find_parking_slot/">Find parking slot</a> |
+      <a href="/help/">Help</a> |
+      <a href="/login/">Login</a>
+      <a href="/sign up/">Sign up</a>
+    </nav>
+  </div>
+  
   <img src="https://i.imgur.com/NC8cEZx.png" alt="RMIT University">
   
-  <h1><font face="Arial"> RMIT University </font></h1>
-  <p><font face="Arial"> One of Australia's original educational institutions founded in 1887, RMIT University now enrols over 96,000 students each year, including more than 19,000 at postgraduate <br> level </font></p>
-  <p><font face="Arial"> Our rankings </font></p>
-  <font face="Arial">
+  <!-- Section 1 -->
+  <h1> RMIT University </h1>
+  <p> One of Australia's original educational institutions 
+    founded in 1887, RMIT University now enrols over 96,000 
+    students each year, including more than 19,000 
+    at postgraduate <br> level </p>
+  <p> Our rankings </p>
+  <ul>
     <li>
       5-Star QS ranking for exellence in higher education (QS World University Rankings 2015-2021) 
     </li>
@@ -43,64 +46,65 @@
     <li>
       8th in the world and 5th in Australia among universities less than 50 years old (QS Top 50 Under 50 index 2021)
     </li>
-  </font>
+  </ul>
+    
+    <!-- Section 2 -->
+  <h1>  Our Locations </h1>
 
-  <h1><font face="Arial"> Our Locations </font></h1>
-  <li><font face="Arial"> Australia </font></li>
+  <li>  Australia </li>
   <ul style="list-style-type: circle;">
-    <font face="Arial">
       <li> Melbourne city campus </li> 
       <li> Bundoora campus </li>
       <li> Brunswick campus </li>
-    </font>
   </ul>
 
-  <li><font face="Arial"> Vietnam </font></li>
+  <li> Vietnam </li>
   <ul style="list-style-type: circle;">
-    <font face="Arial">
       <li> Saigon South campus </li> 
       <li> Hanoi campus </li>
-    </font>
   </ul>
 
-  <li><font face="Arial"> Spain </font></li>
+  <li> Spain </li>
   <ul style="list-style-type: circle;">
-    <font face="Arial">
       <li> Barcelona campus </li> 
-    </font>
   </ul>
 
-  <h1><font face="Arial"> Our Students </font></h1>
-  <img src="https://i.imgur.com/G6tmWPb.jpg" alt="RMIT image" style="float: right;">
-  <p>
-    <font face="Arial">
-      What RMIT student will you be? Are you a high achiever <br> motivated by grades or an explorer who loves adventure?
-    </font>
-  </p>
-  <a style="color: RGB(230, 30, 42);" href="https://www.rmit.edu.au">Find out more></a>
-  </p>
+  <!-- Section 3 -->
+  <div 
+  class="section 3"
+  style="background-color: rgb(205, 166, 241); padding: 20px;">
+    <h1> Our Students </h1>
+    <img src="https://i.imgur.com/G6tmWPb.jpg" alt="RMIT image" style="float: right;">
+    <p>
+        What RMIT student will you be? Are you a high achiever <br> motivated by grades or an explorer who loves adventure?
+    </p>
+    <a style="color: RGB(230, 30, 42);" href="https://www.rmit.edu.au">Find out more></a>
+    </p>
+  </div>
+  
 
-  <h1><font face="Arial"> Want to know more about RMIT? Join our next Information Sessions </font></h1>
-  <table border="1">
-    <tr>
-        <td class="red">Time</td>
-        <td class="red">Location</td>
-        <td class="red">Address</td>
+  <!-- Section 4 -->
+  <h1> Want to know more about RMIT? Join our next Information Sessions </h1>
+  <table>
+    <tr style="color: white;">
+        <th>Time</th>
+        <th>Location</th>
+        <th>Address</th>
     </tr>
     <tr>
-        <td class="yellow">8:30 - 10:00 January 16, 2023</td>
-        <td class="yellow">Saigon South Campus, Room 2.4.02</td>
-        <td class="yellow">702 Nguyen Van Linh, District 7, Ho Chi Minh City</td>
+        <td>8:30 - 10:00 January 16, 2023</td>
+        <td>Saigon South Campus, Room 2.4.02</td>
+        <td>702 Nguyen Van Linh, District 7, Ho Chi Minh City</td>
     </tr>
     <tr>
-        <td class="yellow">8:30 - 10:00 January 16, 2023</td>
-        <td class="yellow">Hanoi campus, Room 1.10.001</td>
-        <td class="yellow">Handi Resco Building, 521 Kim Ma, Ba Dinh District, Hanoi</td>
+        <td>8:30 - 10:00 January 16, 2023</td>
+        <td>Hanoi campus, Room 1.10.001</td>
+        <td>Handi Resco Building, 521 Kim Ma, Ba Dinh District, Hanoi</td>
     </tr>
 </table>
 
-<center>
-  <img src="https://i.imgur.com/BJXZzzw.png" class="centerImage" alt="rmit" >
-</center>
+
+<img src="https://i.imgur.com/BJXZzzw.png" class="centerImage" alt="rmit" >
+
 </body>
 </html>
